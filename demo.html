@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="demo.css" />
+        <script src="index.js" async></script>
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Tag Bistro</h1>
+            <br>
+            <h3>&mdash; MENU &mdash; </h3>
+        </div>
+        <div class="topnav">
+        
+           <a href="welcome.php">Homepage</a>
+           <a href="#desserts">Dessert</a>
+           <a href="#ct">Cart</a>
+        
+          </div>
+        <section class="container content-section">
+            <br>
+            
+            <h2 class="section-header">&mdash; Main Course &mdash; </h2>
+            <div class="food-items">
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Smoky Hamburger</span>
+                    <img class="food-item-image" src="burger.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">200Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Honey Garlic Chicken</span>
+                    <img class="food-item-image" src="chicken.jpeg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">300Rs</span>
+                        <button class="btn btn-primary food-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Manchow Soup</span>
+                    <img class="food-item-image" src="soup.jpeg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">150Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Basil Pesto Spaghetti</span>
+                    <img class="food-item-image" src="Spaghetti.jpeg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">250Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Roast salmon</span>
+                    <img class="food-item-image" src="salmon.jpeg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">350Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">BBQ Sandwich</span>
+                    <img class="food-item-image" src="Sandwich.jpeg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">230Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+            <br>
+        </section>
+        <br>
+        <section class="container content-section">
+            <br>
+            <h2 id="desserts" class="section-header">&mdash; Desserts &mdash; </h2>
+            <br>
+            <div class="food-items">
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Chocolate Mousse</span>
+                    <img class="food-item-image" src="Mousse.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">200Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Brownie</span>
+                    <img class="food-item-image" src="Brownie.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">150Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+                <div class="food-item">
+                    <br>
+                    <span class="food-item-title">Fruit Tart</span>
+                    <img class="food-item-image" src="Tart.jpg">
+                    <div class="food-item-details">
+                        <span class="food-item-price">180Rs</span>
+                        <button class="btn btn-primary food-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br>
+        </section>
+        <br>
+        <section class="container content-section">
+            <br>
+            <h2 id="ct" class="section-header">&mdash; CART &mdash;</h2>
+            <br>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">&nbsp; ITEM</span>
+                <span class="cart-price cart-header cart-column">&nbsp; PRICE</span>
+                <span class="cart-quantity cart-header cart-column">&nbsp; QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0Rs</span>
+            </div>
+            <br>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            <br>
+        </section>
+        <footer class="main-footer">
+            
+                <h1 class="footing">Media</h1>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                           <h2>Find us on Instagram:</h2>
+                            <img src="insta.PNG">
+                        </a>
+                    </li>
+                  
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <h2>Find us on Facebook:</h2>
+                            <img src="facebook.PNG">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

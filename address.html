@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="index.js" async></script>
+<style>
+
+  
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background-color: rgb(170, 192, 209);
+}
+
+
+
+.heading{
+    background-color: rgb(29, 29, 68);
+    color: #ffffff;
+    font-weight: 800;
+    font-size:xx-large;
+    padding: 60px 0 60px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 10px 200px;
+}
+
+.col {
+  -ms-flex: 100%; 
+  flex: 200%;
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  width:130%
+}
+
+input[type=text] {
+  width:100%;
+  margin-bottom: 20px;
+  align-self:center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+a:link,a:visited{
+            background-color: rgb(29, 29, 68);
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover,a:active{
+            background-color: rgb(170, 192, 209);
+        }
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="heading">
+    <h1>Tag Bistro</h1>   
+</div>
+<br>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form >
+      
+        <div class="row">
+          <div class="col">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" >
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" >
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" >
+
+            
+              
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" >
+              
+                <label for="zip">PIN</label>
+                <input type="text" id="zip" name="zip" >
+              
+              
+            
+            <br><br>
+            <div><a href="logout.php">
+              PROCEED TO LOGOUT
+              </a></div>
+          </div>
+          <br>
+       
+         
+        
+      </form>
+    </div>
+  </div>
+  
+
+</body>
+</html>
